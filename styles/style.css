@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header styles */
+header {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+    padding: 0px 200px;
+    gap: 200px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    margin-bottom: 32px;
+
+}
+
+.btn-primary {
+    padding: 15px 25px;
+    border-radius: 5px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+.banner-profile {
+    width: 500px;
+    padding-top: 50px;
+}
+
+/* main section styles */
+.Featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.Featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin: 0px auto;
+
+}
+
+.flower-card #image-1 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 90px 60px 0px 60px;
+
+}
+
+.flower-card #image-2 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 90px 60px 0px 60px;
+
+}
+
+.flower-card #image-3 {
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 90px 60px 0px 60px;
+
+}
+
+.flower-card {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.more-item {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.more-item a {
+    color: #272727;
+}
+
+/* group section styles */
+.group-section {
+    margin: 130px auto;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.group {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 80px 0px;
+
+}
+
+.group-1 {
+    display: grid;
+    place-items: center;
+}
+
+.group-2 {
+    display: grid;
+    place-items: center;
+}
+
+.group-3 {
+    display: grid;
+    place-items: center;
+}
+
+.group img {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+}
+
+.group p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+/* discount-section styles */
+.discount-section {
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+
+}
+
+.hot-deal {
+    display: grid;
+    place-items: center;
+    padding: 230px 300px;
+
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.hot-deal-title #off {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin-bottom: 48px;
+}
+
+.sign-up {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section-image img {
+    justify-content: center;
+    height: 650px;
+    flex-shrink: 0;
+    padding: 100px 0px;
+}
+
+/* instagram section styles */
+.Instagram {
+    margin-top: 130px;
+}
+
+.sec-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.sec-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin: 0px auto;
+
+}
+
+.instagram-pic {
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.instagram-pic .image {
+    width: 342px;
+    height: 396px;
+}
+
+/* get the latest deal section style */
+
+.deals {
+    display: grid;
+    place-items: center;
+    margin: 130px auto;
+    padding: 120px 200px;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url('../Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+}
+
+.deals-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.deals-sub-heading {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.input-email {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+}
+
+input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 23px;
+}
+
+.subscribe-btn {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+
+}
+
+/* footer section styles */
+footer {
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+    padding: 150px 350px;
+}
+
+.footer-heading .flower-shop {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.footer-heading {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer-sub-headings {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 625px;
+    margin: 24px auto;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
